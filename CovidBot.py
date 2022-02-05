@@ -4,7 +4,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, JobQu
 import Token, Commands
 
 #Gets the bot token from the class Token.
-token = Token.getToken()
+token = "PASTE HERE YOUR TELEGRAM BOT'S TOKEN"
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
